@@ -12,7 +12,7 @@ data = data.dropna()
 
 
 st.title("Разведочный :red[анализ] данных")
-st.subheader("В исходный датасет мы добавили признаки: ")
+#st.subheader("В исходный датасет мы добавили признаки: ") # будет позже
 eda, model = st.tabs(["EDA", "Модель"])
 
 with eda:
