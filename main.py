@@ -19,7 +19,7 @@ with eda:
     st.sidebar.title("Фильтры")
     st.sidebar.info("Дэшборд для визуализации результатов нашей работы по проекту для МОВС23")
     st.sidebar.info("Репозиторий с исходным "
-                    ":red[[кодом](https://github.com/Semyon-Yakovlev/Project_ATM/tree/55db5f201f5b1edd24c13505e8c48e61acd097da)].")
+                    ":red[[кодом](https://github.com/Semyon-Yakovlev/Project_ATM)].")
     n_mall = st.sidebar.slider("Количество тц рядом", data['n_mall'].min(), data['n_mall'].max(), (data['n_mall'].min(), data['n_mall'].max()))
     n_bank = st.sidebar.slider("Количество банков рядом", data['n_bank'].min(), data['n_bank'].max(), (data['n_bank'].min(), data['n_bank'].max()))
     n_alcohol = st.sidebar.slider("Количество магазинов алкоголя рядом", data['n_alcohol'].min(), data['n_alcohol'].max(), (data['n_alcohol'].min(), data['n_alcohol'].max()))
